@@ -154,6 +154,43 @@
    "AUC CI includes 0.5": false
   }
  ],
+ "ci_seed_averaged": [
+  {
+   "Drug": "Bevacizumab",
+   "AUC (seed-averaged probabilities)": 0.566,
+   "AUC 95% CI": "0.490-0.637",
+   "PR-AUC 95% CI": "0.399-0.581",
+   "AUC seed 42": 0.509
+  },
+  {
+   "Drug": "Carboplatin",
+   "AUC (seed-averaged probabilities)": 0.669,
+   "AUC 95% CI": "0.591-0.747",
+   "PR-AUC 95% CI": "0.449-0.672",
+   "AUC seed 42": 0.677
+  },
+  {
+   "Drug": "Paclitaxel",
+   "AUC (seed-averaged probabilities)": 0.69,
+   "AUC 95% CI": "0.639-0.738",
+   "PR-AUC 95% CI": "0.549-0.693",
+   "AUC seed 42": 0.677
+  },
+  {
+   "Drug": "Doxorubicin",
+   "AUC (seed-averaged probabilities)": 0.72,
+   "AUC 95% CI": "0.669-0.769",
+   "PR-AUC 95% CI": "0.516-0.676",
+   "AUC seed 42": 0.727
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "AUC (seed-averaged probabilities)": 0.715,
+   "AUC 95% CI": "0.665-0.767",
+   "PR-AUC 95% CI": "0.494-0.660",
+   "AUC seed 42": 0.68
+  }
+ ],
  "fully_nested_by_seed": [
   {
    "Drug": "Bevacizumab",
@@ -587,6 +624,53 @@
    "F2": 0.752
   }
  ],
+ "permuted20": [
+  {
+   "Drug": "Bevacizumab",
+   "Fixed AUC (seed 42)": 0.538,
+   "Permuted AUC mean": 0.488,
+   "Permuted AUC min": 0.382,
+   "Permuted AUC max": 0.621,
+   "Permuted recall mean": 0.916,
+   "p": 0.19
+  },
+  {
+   "Drug": "Carboplatin",
+   "Fixed AUC (seed 42)": 0.674,
+   "Permuted AUC mean": 0.49,
+   "Permuted AUC min": 0.368,
+   "Permuted AUC max": 0.629,
+   "Permuted recall mean": 0.973,
+   "p": 0.048
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Fixed AUC (seed 42)": 0.698,
+   "Permuted AUC mean": 0.504,
+   "Permuted AUC min": 0.436,
+   "Permuted AUC max": 0.569,
+   "Permuted recall mean": 0.999,
+   "p": 0.048
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Fixed AUC (seed 42)": 0.734,
+   "Permuted AUC mean": 0.492,
+   "Permuted AUC min": 0.442,
+   "Permuted AUC max": 0.559,
+   "Permuted recall mean": 0.996,
+   "p": 0.048
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Fixed AUC (seed 42)": 0.719,
+   "Permuted AUC mean": 0.5,
+   "Permuted AUC min": 0.426,
+   "Permuted AUC max": 0.567,
+   "Permuted recall mean": 0.995,
+   "p": 0.048
+  }
+ ],
  "threshold": [
   {
    "Drug": "Bevacizumab",
@@ -709,10 +793,49 @@
    "Specificity": 0.738
   }
  ],
+ "f2_thresholds_seed42": {
+  "Bevacizumab": [
+   0.18,
+   0.15,
+   0.15,
+   0.15,
+   0.37
+  ],
+  "Carboplatin": [
+   0.15,
+   0.31,
+   0.15,
+   0.15,
+   0.15
+  ],
+  "Paclitaxel": [
+   0.38,
+   0.36,
+   0.35,
+   0.22,
+   0.15
+  ],
+  "Doxorubicin": [
+   0.2,
+   0.39,
+   0.16,
+   0.22,
+   0.24
+  ],
+  "Cyclophosphamide": [
+   0.25,
+   0.18,
+   0.16,
+   0.3,
+   0.4
+  ]
+ },
  "calibration": [
   {
    "Drug": "Bevacizumab",
    "Calibration slope": "0.211 \u00b1 0.086",
+   "Slope min": 0.088,
+   "Slope max": 0.297,
    "Calibration intercept": "-0.187 \u00b1 0.038",
    "Brier": "0.272 \u00b1 0.010",
    "Brier, constant p": 0.247
@@ -720,6 +843,8 @@
   {
    "Drug": "Carboplatin",
    "Calibration slope": "1.179 \u00b1 0.594",
+   "Slope min": 0.625,
+   "Slope max": 2.144,
    "Calibration intercept": "-0.296 \u00b1 0.016",
    "Brier": "0.225 \u00b1 0.005",
    "Brier, constant p": 0.235
@@ -727,6 +852,8 @@
   {
    "Drug": "Paclitaxel",
    "Calibration slope": "0.955 \u00b1 0.285",
+   "Slope min": 0.676,
+   "Slope max": 1.307,
    "Calibration intercept": "-0.126 \u00b1 0.032",
    "Brier": "0.229 \u00b1 0.003",
    "Brier, constant p": 0.248
@@ -734,6 +861,8 @@
   {
    "Drug": "Doxorubicin",
    "Calibration slope": "0.966 \u00b1 0.078",
+   "Slope min": 0.894,
+   "Slope max": 1.092,
    "Calibration intercept": "-0.228 \u00b1 0.017",
    "Brier": "0.212 \u00b1 0.004",
    "Brier, constant p": 0.238
@@ -741,6 +870,8 @@
   {
    "Drug": "Cyclophosphamide",
    "Calibration slope": "1.025 \u00b1 0.218",
+   "Slope min": 0.721,
+   "Slope max": 1.311,
    "Calibration intercept": "-0.273 \u00b1 0.012",
    "Brier": "0.215 \u00b1 0.004",
    "Brier, constant p": 0.236
@@ -1113,6 +1244,32 @@
     0.45,
     0.5
    ]
+  }
+ ],
+ "nb_minus_all_low": [
+  {
+   "Threshold": 0.15,
+   "Bevacizumab": -0.0094,
+   "Carboplatin": -0.0013,
+   "Cyclophosphamide": 0.0047,
+   "Doxorubicin": 0.0068,
+   "Paclitaxel": -0.0061
+  },
+  {
+   "Threshold": 0.2,
+   "Bevacizumab": -0.016,
+   "Carboplatin": -0.0225,
+   "Cyclophosphamide": 0.0161,
+   "Doxorubicin": 0.0176,
+   "Paclitaxel": -0.0069
+  },
+  {
+   "Threshold": 0.25,
+   "Bevacizumab": -0.0274,
+   "Carboplatin": -0.0119,
+   "Cyclophosphamide": 0.0216,
+   "Doxorubicin": 0.03,
+   "Paclitaxel": -0.0038
   }
  ],
  "subgroups": {
@@ -1763,7 +1920,9 @@
    "AUC +PCA": "0.596 \u00b1 0.015",
    "Spec. fixed": "0.154 \u00b1 0.020",
    "Spec. +PCA": "0.091 \u00b1 0.019",
-   "Seeds AUC and spec. both up": 0
+   "Seeds AUC and spec. both up": 0,
+   "Seeds AUC up": 5,
+   "Mean dAUC": 0.035
   },
   {
    "Drug": "Carboplatin",
@@ -1771,7 +1930,9 @@
    "AUC +PCA": "0.654 \u00b1 0.019",
    "Spec. fixed": "0.105 \u00b1 0.046",
    "Spec. +PCA": "0.039 \u00b1 0.027",
-   "Seeds AUC and spec. both up": 0
+   "Seeds AUC and spec. both up": 0,
+   "Seeds AUC up": 2,
+   "Mean dAUC": -0.01
   },
   {
    "Drug": "Paclitaxel",
@@ -1779,7 +1940,9 @@
    "AUC +PCA": "0.692 \u00b1 0.013",
    "Spec. fixed": "0.059 \u00b1 0.017",
    "Spec. +PCA": "0.030 \u00b1 0.011",
-   "Seeds AUC and spec. both up": 0
+   "Seeds AUC and spec. both up": 0,
+   "Seeds AUC up": 2,
+   "Mean dAUC": -0.007
   },
   {
    "Drug": "Doxorubicin",
@@ -1787,7 +1950,9 @@
    "AUC +PCA": "0.709 \u00b1 0.012",
    "Spec. fixed": "0.186 \u00b1 0.034",
    "Spec. +PCA": "0.161 \u00b1 0.040",
-   "Seeds AUC and spec. both up": 1
+   "Seeds AUC and spec. both up": 1,
+   "Seeds AUC up": 1,
+   "Mean dAUC": -0.011
   },
   {
    "Drug": "Cyclophosphamide",
@@ -1795,7 +1960,9 @@
    "AUC +PCA": "0.701 \u00b1 0.012",
    "Spec. fixed": "0.217 \u00b1 0.042",
    "Spec. +PCA": "0.170 \u00b1 0.044",
-   "Seeds AUC and spec. both up": 0
+   "Seeds AUC and spec. both up": 0,
+   "Seeds AUC up": 0,
+   "Mean dAUC": -0.012
   }
  ],
  "flags_platt": [

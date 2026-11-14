@@ -1,0 +1,2034 @@
+{
+ "missing_pct": {
+  "AGE_C": 0.0,
+  "WHITE": 0.0,
+  "GRADE": 12.2,
+  "clinicalt": 2.0,
+  "clinicaln": 6.8,
+  "er": 1.1,
+  "pgr": 1.6,
+  "histotype": 1.4,
+  "meno": 0.9,
+  "her2fish": 66.6,
+  "her2ihc": 15.8,
+  "tsizepe": 9.0,
+  "tsizemamm": 37.7,
+  "tsizeultra": 22.6,
+  "tsizemri": 31.2,
+  "indrx": 0.0,
+  "factora": 0.0,
+  "factorb": 0.0,
+  "stra1_stage": 0.0
+ },
+ "cohorts": [
+  {
+   "Drug": "Bevacizumab",
+   "n": 219,
+   "Positives": 98,
+   "Positive rate": 0.447
+  },
+  {
+   "Drug": "Carboplatin",
+   "n": 223,
+   "Positives": 84,
+   "Positive rate": 0.377
+  },
+  {
+   "Drug": "Paclitaxel",
+   "n": 437,
+   "Positives": 198,
+   "Positive rate": 0.453
+  },
+  {
+   "Drug": "Doxorubicin",
+   "n": 399,
+   "Positives": 156,
+   "Positive rate": 0.391
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "n": 402,
+   "Positives": 154,
+   "Positive rate": 0.383
+  }
+ ],
+ "dox_cyclo_agreement": {
+  "n": 398,
+  "agree": 397
+ },
+ "ae_window": {
+  "negative_onset": 16,
+  "no_onset": 7,
+  "win98": 11287,
+  "before84": 8514
+ },
+ "table2_fully_nested": [
+  {
+   "Drug": "Bevacizumab",
+   "n": 219,
+   "Positive rate": 0.447,
+   "AUC": "0.555 \u00b1 0.030",
+   "PR-AUC": "0.481 \u00b1 0.013",
+   "Precision": "0.470 \u00b1 0.007",
+   "Recall": "0.971 \u00b1 0.015",
+   "F1": "0.633 \u00b1 0.009",
+   "F2": "0.801 \u00b1 0.012",
+   "Specificity": "0.112 \u00b1 0.015",
+   "Brier": "0.272 \u00b1 0.010",
+   "AUC 95% CI (seed 42)": "0.434-0.586",
+   "PR-AUC 95% CI (seed 42)": "0.389-0.575",
+   "F2 flag-all": 0.802,
+   "Seeds F2 > flag-all": 3,
+   "AUC CI includes 0.5": true
+  },
+  {
+   "Drug": "Carboplatin",
+   "n": 223,
+   "Positive rate": 0.377,
+   "AUC": "0.663 \u00b1 0.023",
+   "PR-AUC": "0.538 \u00b1 0.041",
+   "Precision": "0.376 \u00b1 0.005",
+   "Recall": "0.974 \u00b1 0.035",
+   "F1": "0.542 \u00b1 0.010",
+   "F2": "0.738 \u00b1 0.020",
+   "Specificity": "0.022 \u00b1 0.023",
+   "Brier": "0.225 \u00b1 0.005",
+   "AUC 95% CI (seed 42)": "0.599-0.755",
+   "PR-AUC 95% CI (seed 42)": "0.481-0.694",
+   "F2 flag-all": 0.751,
+   "Seeds F2 > flag-all": 1,
+   "AUC CI includes 0.5": false
+  },
+  {
+   "Drug": "Paclitaxel",
+   "n": 437,
+   "Positive rate": 0.453,
+   "AUC": "0.681 \u00b1 0.009",
+   "PR-AUC": "0.607 \u00b1 0.016",
+   "Precision": "0.466 \u00b1 0.004",
+   "Recall": "0.966 \u00b1 0.014",
+   "F1": "0.629 \u00b1 0.004",
+   "F2": "0.795 \u00b1 0.008",
+   "Specificity": "0.085 \u00b1 0.021",
+   "Brier": "0.229 \u00b1 0.003",
+   "AUC 95% CI (seed 42)": "0.624-0.727",
+   "PR-AUC 95% CI (seed 42)": "0.531-0.680",
+   "F2 flag-all": 0.806,
+   "Seeds F2 > flag-all": 1,
+   "AUC CI includes 0.5": false
+  },
+  {
+   "Drug": "Doxorubicin",
+   "n": 399,
+   "Positive rate": 0.391,
+   "AUC": "0.708 \u00b1 0.012",
+   "PR-AUC": "0.580 \u00b1 0.019",
+   "Precision": "0.432 \u00b1 0.019",
+   "Recall": "0.958 \u00b1 0.010",
+   "F1": "0.595 \u00b1 0.018",
+   "F2": "0.770 \u00b1 0.011",
+   "Specificity": "0.190 \u00b1 0.066",
+   "Brier": "0.212 \u00b1 0.004",
+   "AUC 95% CI (seed 42)": "0.677-0.774",
+   "PR-AUC 95% CI (seed 42)": "0.533-0.689",
+   "F2 flag-all": 0.762,
+   "Seeds F2 > flag-all": 4,
+   "AUC CI includes 0.5": false
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "n": 402,
+   "Positive rate": 0.383,
+   "AUC": "0.700 \u00b1 0.013",
+   "PR-AUC": "0.558 \u00b1 0.017",
+   "Precision": "0.439 \u00b1 0.010",
+   "Recall": "0.943 \u00b1 0.008",
+   "F1": "0.599 \u00b1 0.010",
+   "F2": "0.767 \u00b1 0.009",
+   "Specificity": "0.250 \u00b1 0.031",
+   "Brier": "0.215 \u00b1 0.004",
+   "AUC 95% CI (seed 42)": "0.626-0.729",
+   "PR-AUC 95% CI (seed 42)": "0.457-0.621",
+   "F2 flag-all": 0.756,
+   "Seeds F2 > flag-all": 4,
+   "AUC CI includes 0.5": false
+  }
+ ],
+ "fully_nested_by_seed": [
+  {
+   "Drug": "Bevacizumab",
+   "Seed": 1,
+   "AUC": 0.561,
+   "PR-AUC": 0.481,
+   "Precision": 0.473,
+   "Recall": 0.99,
+   "F1": 0.64,
+   "F2": 0.812,
+   "Specificity": 0.107,
+   "Brier": 0.258
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Seed": 7,
+   "AUC": 0.581,
+   "PR-AUC": 0.499,
+   "Precision": 0.473,
+   "Recall": 0.98,
+   "F1": 0.638,
+   "F2": 0.807,
+   "Specificity": 0.116,
+   "Brier": 0.268
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Seed": 42,
+   "AUC": 0.509,
+   "PR-AUC": 0.473,
+   "Precision": 0.458,
+   "Recall": 0.949,
+   "F1": 0.618,
+   "F2": 0.782,
+   "Specificity": 0.091,
+   "Brier": 0.282
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Seed": 123,
+   "AUC": 0.544,
+   "PR-AUC": 0.465,
+   "Precision": 0.475,
+   "Recall": 0.969,
+   "F1": 0.638,
+   "F2": 0.802,
+   "Specificity": 0.132,
+   "Brier": 0.283
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Seed": 2024,
+   "AUC": 0.581,
+   "PR-AUC": 0.489,
+   "Precision": 0.47,
+   "Recall": 0.969,
+   "F1": 0.633,
+   "F2": 0.8,
+   "Specificity": 0.116,
+   "Brier": 0.27
+  },
+  {
+   "Drug": "Carboplatin",
+   "Seed": 1,
+   "AUC": 0.64,
+   "PR-AUC": 0.48,
+   "Precision": 0.38,
+   "Recall": 1.0,
+   "F1": 0.551,
+   "F2": 0.754,
+   "Specificity": 0.014,
+   "Brier": 0.23
+  },
+  {
+   "Drug": "Carboplatin",
+   "Seed": 7,
+   "AUC": 0.683,
+   "PR-AUC": 0.562,
+   "Precision": 0.37,
+   "Recall": 0.964,
+   "F1": 0.535,
+   "F2": 0.73,
+   "Specificity": 0.007,
+   "Brier": 0.222
+  },
+  {
+   "Drug": "Carboplatin",
+   "Seed": 42,
+   "AUC": 0.677,
+   "PR-AUC": 0.583,
+   "Precision": 0.381,
+   "Recall": 0.988,
+   "F1": 0.55,
+   "F2": 0.749,
+   "Specificity": 0.029,
+   "Brier": 0.219
+  },
+  {
+   "Drug": "Carboplatin",
+   "Seed": 123,
+   "AUC": 0.637,
+   "PR-AUC": 0.512,
+   "Precision": 0.37,
+   "Recall": 0.917,
+   "F1": 0.527,
+   "F2": 0.708,
+   "Specificity": 0.058,
+   "Brier": 0.232
+  },
+  {
+   "Drug": "Carboplatin",
+   "Seed": 2024,
+   "AUC": 0.679,
+   "PR-AUC": 0.555,
+   "Precision": 0.377,
+   "Recall": 1.0,
+   "F1": 0.547,
+   "F2": 0.751,
+   "Specificity": 0.0,
+   "Brier": 0.224
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Seed": 1,
+   "AUC": 0.693,
+   "PR-AUC": 0.63,
+   "Precision": 0.468,
+   "Recall": 0.949,
+   "F1": 0.627,
+   "F2": 0.787,
+   "Specificity": 0.105,
+   "Brier": 0.224
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Seed": 7,
+   "AUC": 0.686,
+   "PR-AUC": 0.617,
+   "Precision": 0.461,
+   "Recall": 0.975,
+   "F1": 0.626,
+   "F2": 0.797,
+   "Specificity": 0.054,
+   "Brier": 0.229
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Seed": 42,
+   "AUC": 0.677,
+   "PR-AUC": 0.599,
+   "Precision": 0.465,
+   "Recall": 0.965,
+   "F1": 0.627,
+   "F2": 0.794,
+   "Specificity": 0.079,
+   "Brier": 0.231
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Seed": 123,
+   "AUC": 0.681,
+   "PR-AUC": 0.594,
+   "Precision": 0.469,
+   "Recall": 0.955,
+   "F1": 0.629,
+   "F2": 0.791,
+   "Specificity": 0.105,
+   "Brier": 0.23
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Seed": 2024,
+   "AUC": 0.669,
+   "PR-AUC": 0.593,
+   "Precision": 0.47,
+   "Recall": 0.985,
+   "F1": 0.636,
+   "F2": 0.808,
+   "Specificity": 0.079,
+   "Brier": 0.232
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Seed": 1,
+   "AUC": 0.7,
+   "PR-AUC": 0.567,
+   "Precision": 0.422,
+   "Recall": 0.968,
+   "F1": 0.588,
+   "F2": 0.769,
+   "Specificity": 0.148,
+   "Brier": 0.214
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Seed": 7,
+   "AUC": 0.696,
+   "PR-AUC": 0.576,
+   "Precision": 0.408,
+   "Recall": 0.962,
+   "F1": 0.573,
+   "F2": 0.756,
+   "Specificity": 0.103,
+   "Brier": 0.218
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Seed": 42,
+   "AUC": 0.727,
+   "PR-AUC": 0.609,
+   "Precision": 0.458,
+   "Recall": 0.955,
+   "F1": 0.62,
+   "F2": 0.785,
+   "Specificity": 0.276,
+   "Brier": 0.205
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Seed": 123,
+   "AUC": 0.709,
+   "PR-AUC": 0.589,
+   "Precision": 0.434,
+   "Recall": 0.942,
+   "F1": 0.594,
+   "F2": 0.763,
+   "Specificity": 0.21,
+   "Brier": 0.212
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Seed": 2024,
+   "AUC": 0.709,
+   "PR-AUC": 0.561,
+   "Precision": 0.44,
+   "Recall": 0.962,
+   "F1": 0.604,
+   "F2": 0.777,
+   "Specificity": 0.214,
+   "Brier": 0.212
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Seed": 1,
+   "AUC": 0.705,
+   "PR-AUC": 0.556,
+   "Precision": 0.44,
+   "Recall": 0.948,
+   "F1": 0.601,
+   "F2": 0.77,
+   "Specificity": 0.25,
+   "Brier": 0.214
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Seed": 7,
+   "AUC": 0.714,
+   "PR-AUC": 0.576,
+   "Precision": 0.449,
+   "Recall": 0.935,
+   "F1": 0.606,
+   "F2": 0.768,
+   "Specificity": 0.286,
+   "Brier": 0.211
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Seed": 42,
+   "AUC": 0.68,
+   "PR-AUC": 0.535,
+   "Precision": 0.443,
+   "Recall": 0.955,
+   "F1": 0.605,
+   "F2": 0.775,
+   "Specificity": 0.254,
+   "Brier": 0.221
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Seed": 123,
+   "AUC": 0.698,
+   "PR-AUC": 0.55,
+   "Precision": 0.441,
+   "Recall": 0.942,
+   "F1": 0.6,
+   "F2": 0.767,
+   "Specificity": 0.258,
+   "Brier": 0.218
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Seed": 2024,
+   "AUC": 0.704,
+   "PR-AUC": 0.572,
+   "Precision": 0.421,
+   "Recall": 0.935,
+   "F1": 0.581,
+   "F2": 0.752,
+   "Specificity": 0.202,
+   "Brier": 0.212
+  }
+ ],
+ "chosen_counts": {
+  "Bevacizumab": {
+   "Ens base+SMOTE": 0,
+   "Ens base, fewer AE": 0,
+   "Ens mild+SMOTE": 1,
+   "Ens strong": 5,
+   "LR C=1": 11,
+   "LR C=5": 8
+  },
+  "Carboplatin": {
+   "Ens base+SMOTE": 1,
+   "Ens base, fewer AE": 2,
+   "Ens mild+SMOTE": 4,
+   "Ens strong": 18,
+   "LR C=1": 0,
+   "LR C=5": 0
+  },
+  "Cyclophosphamide": {
+   "Ens base+SMOTE": 0,
+   "Ens base, fewer AE": 13,
+   "Ens mild+SMOTE": 0,
+   "Ens strong": 11,
+   "LR C=1": 1,
+   "LR C=5": 0
+  },
+  "Doxorubicin": {
+   "Ens base+SMOTE": 1,
+   "Ens base, fewer AE": 17,
+   "Ens mild+SMOTE": 1,
+   "Ens strong": 6,
+   "LR C=1": 0,
+   "LR C=5": 0
+  },
+  "Paclitaxel": {
+   "Ens base+SMOTE": 0,
+   "Ens base, fewer AE": 1,
+   "Ens mild+SMOTE": 7,
+   "Ens strong": 15,
+   "LR C=1": 1,
+   "LR C=5": 1
+  }
+ },
+ "fixed_vs_nested": [
+  {
+   "Drug": "Bevacizumab",
+   "AUC fixed": "0.560 \u00b1 0.017",
+   "Recall fixed": "0.941 \u00b1 0.015",
+   "Specificity fixed": "0.154 \u00b1 0.020",
+   "AUC fully nested": "0.555 \u00b1 0.030",
+   "Optimism (mean AUC)": 0.005,
+   "AUC fixed, seed 42": 0.538,
+   "AUC fully nested, seed 42": 0.509
+  },
+  {
+   "Drug": "Carboplatin",
+   "AUC fixed": "0.664 \u00b1 0.017",
+   "Recall fixed": "0.910 \u00b1 0.047",
+   "Specificity fixed": "0.105 \u00b1 0.046",
+   "AUC fully nested": "0.663 \u00b1 0.023",
+   "Optimism (mean AUC)": 0.001,
+   "AUC fixed, seed 42": 0.674,
+   "AUC fully nested, seed 42": 0.677
+  },
+  {
+   "Drug": "Paclitaxel",
+   "AUC fixed": "0.699 \u00b1 0.004",
+   "Recall fixed": "0.979 \u00b1 0.011",
+   "Specificity fixed": "0.059 \u00b1 0.017",
+   "AUC fully nested": "0.681 \u00b1 0.009",
+   "Optimism (mean AUC)": 0.018,
+   "AUC fixed, seed 42": 0.698,
+   "AUC fully nested, seed 42": 0.677
+  },
+  {
+   "Drug": "Doxorubicin",
+   "AUC fixed": "0.720 \u00b1 0.009",
+   "Recall fixed": "0.963 \u00b1 0.005",
+   "Specificity fixed": "0.186 \u00b1 0.034",
+   "AUC fully nested": "0.708 \u00b1 0.012",
+   "Optimism (mean AUC)": 0.012,
+   "AUC fixed, seed 42": 0.734,
+   "AUC fully nested, seed 42": 0.727
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "AUC fixed": "0.713 \u00b1 0.007",
+   "Recall fixed": "0.956 \u00b1 0.018",
+   "Specificity fixed": "0.217 \u00b1 0.042",
+   "AUC fully nested": "0.700 \u00b1 0.013",
+   "Optimism (mean AUC)": 0.013,
+   "AUC fixed, seed 42": 0.719,
+   "AUC fully nested, seed 42": 0.68
+  }
+ ],
+ "permuted": [
+  {
+   "Drug": "Bevacizumab",
+   "AUC": 0.374,
+   "Recall": 0.908,
+   "Specificity": 0.033,
+   "F2": 0.744
+  },
+  {
+   "Drug": "Carboplatin",
+   "AUC": 0.568,
+   "Recall": 0.976,
+   "Specificity": 0.043,
+   "F2": 0.744
+  },
+  {
+   "Drug": "Paclitaxel",
+   "AUC": 0.55,
+   "Recall": 1.0,
+   "Specificity": 0.0,
+   "F2": 0.806
+  },
+  {
+   "Drug": "Doxorubicin",
+   "AUC": 0.473,
+   "Recall": 0.994,
+   "Specificity": 0.0,
+   "F2": 0.758
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "AUC": 0.479,
+   "Recall": 0.994,
+   "Specificity": 0.0,
+   "F2": 0.752
+  }
+ ],
+ "threshold": [
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.2,
+   "Recall": 0.929,
+   "Specificity": 0.116
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.3,
+   "Recall": 0.847,
+   "Specificity": 0.132
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.4,
+   "Recall": 0.714,
+   "Specificity": 0.281
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.5,
+   "Recall": 0.449,
+   "Specificity": 0.554
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.2,
+   "Recall": 0.917,
+   "Specificity": 0.058
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.3,
+   "Recall": 0.869,
+   "Specificity": 0.216
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.4,
+   "Recall": 0.726,
+   "Specificity": 0.54
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.5,
+   "Recall": 0.548,
+   "Specificity": 0.741
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.2,
+   "Recall": 0.97,
+   "Specificity": 0.05
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.3,
+   "Recall": 0.924,
+   "Specificity": 0.13
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.4,
+   "Recall": 0.854,
+   "Specificity": 0.397
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.5,
+   "Recall": 0.616,
+   "Specificity": 0.674
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.2,
+   "Recall": 0.981,
+   "Specificity": 0.165
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.3,
+   "Recall": 0.897,
+   "Specificity": 0.337
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.4,
+   "Recall": 0.814,
+   "Specificity": 0.556
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.5,
+   "Recall": 0.571,
+   "Specificity": 0.745
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.2,
+   "Recall": 0.981,
+   "Specificity": 0.153
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.3,
+   "Recall": 0.883,
+   "Specificity": 0.282
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.4,
+   "Recall": 0.786,
+   "Specificity": 0.508
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.5,
+   "Recall": 0.487,
+   "Specificity": 0.738
+  }
+ ],
+ "calibration": [
+  {
+   "Drug": "Bevacizumab",
+   "Calibration slope": "0.211 \u00b1 0.086",
+   "Calibration intercept": "-0.187 \u00b1 0.038",
+   "Brier": "0.272 \u00b1 0.010",
+   "Brier, constant p": 0.247
+  },
+  {
+   "Drug": "Carboplatin",
+   "Calibration slope": "1.179 \u00b1 0.594",
+   "Calibration intercept": "-0.296 \u00b1 0.016",
+   "Brier": "0.225 \u00b1 0.005",
+   "Brier, constant p": 0.235
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Calibration slope": "0.955 \u00b1 0.285",
+   "Calibration intercept": "-0.126 \u00b1 0.032",
+   "Brier": "0.229 \u00b1 0.003",
+   "Brier, constant p": 0.248
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Calibration slope": "0.966 \u00b1 0.078",
+   "Calibration intercept": "-0.228 \u00b1 0.017",
+   "Brier": "0.212 \u00b1 0.004",
+   "Brier, constant p": 0.238
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Calibration slope": "1.025 \u00b1 0.218",
+   "Calibration intercept": "-0.273 \u00b1 0.012",
+   "Brier": "0.215 \u00b1 0.004",
+   "Brier, constant p": 0.236
+  }
+ ],
+ "dca": [
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.1,
+   "NB model": 0.376,
+   "NB treat-all": 0.3861,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.15,
+   "NB model": 0.3406,
+   "NB treat-all": 0.35,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.2,
+   "NB model": 0.2934,
+   "NB treat-all": 0.3094,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.25,
+   "NB model": 0.2359,
+   "NB treat-all": 0.2633,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.3,
+   "NB model": 0.1735,
+   "NB treat-all": 0.2107,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.35,
+   "NB model": 0.1219,
+   "NB treat-all": 0.15,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.4,
+   "NB model": 0.0548,
+   "NB treat-all": 0.0791,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.45,
+   "NB model": -0.0033,
+   "NB treat-all": -0.0046,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Threshold": 0.5,
+   "NB model": -0.0457,
+   "NB treat-all": -0.105,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.1,
+   "NB model": 0.3074,
+   "NB treat-all": 0.3074,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.15,
+   "NB model": 0.2654,
+   "NB treat-all": 0.2667,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.2,
+   "NB model": 0.1984,
+   "NB treat-all": 0.2209,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.25,
+   "NB model": 0.157,
+   "NB treat-all": 0.1689,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.3,
+   "NB model": 0.1179,
+   "NB treat-all": 0.1095,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.35,
+   "NB model": 0.0845,
+   "NB treat-all": 0.041,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.4,
+   "NB model": 0.0822,
+   "NB treat-all": -0.0389,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.45,
+   "NB model": 0.0828,
+   "NB treat-all": -0.1333,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Carboplatin",
+   "Threshold": 0.5,
+   "NB model": 0.0448,
+   "NB treat-all": -0.2466,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.1,
+   "NB model": 0.3923,
+   "NB treat-all": 0.3923,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.15,
+   "NB model": 0.3505,
+   "NB treat-all": 0.3566,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.2,
+   "NB model": 0.3095,
+   "NB treat-all": 0.3164,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.25,
+   "NB model": 0.267,
+   "NB treat-all": 0.2708,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.3,
+   "NB model": 0.2148,
+   "NB treat-all": 0.2187,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.35,
+   "NB model": 0.1778,
+   "NB treat-all": 0.1586,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.4,
+   "NB model": 0.167,
+   "NB treat-all": 0.0885,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.45,
+   "NB model": 0.1182,
+   "NB treat-all": 0.0056,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Threshold": 0.5,
+   "NB model": 0.1007,
+   "NB treat-all": -0.0938,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.1,
+   "NB model": 0.3247,
+   "NB treat-all": 0.3233,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.15,
+   "NB model": 0.2903,
+   "NB treat-all": 0.2835,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.2,
+   "NB model": 0.2563,
+   "NB treat-all": 0.2387,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.25,
+   "NB model": 0.218,
+   "NB treat-all": 0.188,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.3,
+   "NB model": 0.1779,
+   "NB treat-all": 0.13,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.35,
+   "NB model": 0.1548,
+   "NB treat-all": 0.063,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.4,
+   "NB model": 0.1378,
+   "NB treat-all": -0.015,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.45,
+   "NB model": 0.1003,
+   "NB treat-all": -0.1073,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Threshold": 0.5,
+   "NB model": 0.0677,
+   "NB treat-all": -0.218,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.1,
+   "NB model": 0.3112,
+   "NB treat-all": 0.3145,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.15,
+   "NB model": 0.2789,
+   "NB treat-all": 0.2742,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.2,
+   "NB model": 0.245,
+   "NB treat-all": 0.2289,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.25,
+   "NB model": 0.199,
+   "NB treat-all": 0.1774,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.3,
+   "NB model": 0.1485,
+   "NB treat-all": 0.1187,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.35,
+   "NB model": 0.1276,
+   "NB treat-all": 0.0509,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.4,
+   "NB model": 0.0987,
+   "NB treat-all": -0.0282,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.45,
+   "NB model": 0.0629,
+   "NB treat-all": -0.1217,
+   "NB treat-none": 0.0
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Threshold": 0.5,
+   "NB model": 0.0249,
+   "NB treat-all": -0.2338,
+   "NB treat-none": 0.0
+  }
+ ],
+ "dca_summary": [
+  {
+   "Drug": "Bevacizumab",
+   "Thresholds where model > treat-all and > 0": []
+  },
+  {
+   "Drug": "Carboplatin",
+   "Thresholds where model > treat-all and > 0": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+   ]
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Thresholds where model > treat-all and > 0": [
+    0.35,
+    0.4,
+    0.45,
+    0.5
+   ]
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Thresholds where model > treat-all and > 0": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+   ]
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Thresholds where model > treat-all and > 0": [
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+   ]
+  }
+ ],
+ "subgroups": {
+  "n_combos": 93,
+  "n_flagged": 0,
+  "largest_drop": [
+   {
+    "Drug": "Bevacizumab",
+    "Variable": "Age group",
+    "Level": "<40",
+    "n": 57,
+    "Recall": 0.812,
+    "Drop (pp)": 13.6,
+    "AUC": 0.416
+   },
+   {
+    "Drug": "Paclitaxel",
+    "Variable": "Clinical T",
+    "Level": "T4",
+    "n": 10,
+    "Recall": 0.875,
+    "Drop (pp)": 9.0,
+    "AUC": 0.5
+   },
+   {
+    "Drug": "Cyclophosphamide",
+    "Variable": "Histology",
+    "Level": "Invasive mammary NOS",
+    "n": 16,
+    "Recall": 0.875,
+    "Drop (pp)": 8.0,
+    "AUC": 0.703
+   }
+  ],
+  "auc_min": 0.226,
+  "auc_max": 0.875,
+  "small_large_drops": [
+   {
+    "Drug": "Bevacizumab",
+    "Variable": "Histology",
+    "Level": "Other",
+    "n": 6,
+    "Recall": 0.333,
+    "Drop (pp)": 61.6,
+    "AUC": 0.0
+   },
+   {
+    "Drug": "Doxorubicin",
+    "Variable": "Histology",
+    "Level": "Mixed ductal & lobular",
+    "n": 8,
+    "Recall": 0.667,
+    "Drop (pp)": 28.8,
+    "AUC": 0.467
+   },
+   {
+    "Drug": "Cyclophosphamide",
+    "Variable": "Clinical T",
+    "Level": "T4",
+    "n": 7,
+    "Recall": 0.714,
+    "Drop (pp)": 24.0,
+    "AUC": NaN
+   },
+   {
+    "Drug": "Cyclophosphamide",
+    "Variable": "Histology",
+    "Level": "Mixed ductal & lobular",
+    "n": 8,
+    "Recall": 0.667,
+    "Drop (pp)": 28.8,
+    "AUC": 0.667
+   }
+  ]
+ },
+ "importance": [
+  {
+   "Drug": "Bevacizumab",
+   "Rank": 1,
+   "Feature": "early_ae_max_grade_bev",
+   "AUC drop": 0.0618
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Rank": 2,
+   "Feature": "early_ae_count_bev",
+   "AUC drop": 0.0501
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Rank": 3,
+   "Feature": "AGE_C",
+   "AUC drop": 0.0186
+  },
+  {
+   "Drug": "Carboplatin",
+   "Rank": 1,
+   "Feature": "early_ae_max_grade_carbo",
+   "AUC drop": 0.1245
+  },
+  {
+   "Drug": "Carboplatin",
+   "Rank": 2,
+   "Feature": "early_ae_blood_bone_marrow_carbo",
+   "AUC drop": 0.0277
+  },
+  {
+   "Drug": "Carboplatin",
+   "Rank": 3,
+   "Feature": "her2ihc",
+   "AUC drop": 0.015
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Rank": 1,
+   "Feature": "factora",
+   "AUC drop": 0.0499
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Rank": 2,
+   "Feature": "indrx",
+   "AUC drop": 0.0276
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Rank": 3,
+   "Feature": "early_ae_blood_bone_marrow_pac",
+   "AUC drop": 0.0097
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Rank": 1,
+   "Feature": "early_ae_max_grade_dox",
+   "AUC drop": 0.0578
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Rank": 2,
+   "Feature": "early_ae_count_dox",
+   "AUC drop": 0.0342
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Rank": 3,
+   "Feature": "clinicalt",
+   "AUC drop": 0.0255
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Rank": 1,
+   "Feature": "early_ae_max_grade_cyclo",
+   "AUC drop": 0.1018
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Rank": 2,
+   "Feature": "clinicaln",
+   "AUC drop": 0.0254
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Rank": 3,
+   "Feature": "early_ae_count_cyclo",
+   "AUC drop": 0.0237
+  }
+ ],
+ "fp_descriptive": [
+  {
+   "Drug": "Bevacizumab",
+   "Feature": "early_ae_count",
+   "FP mean": 9.24,
+   "TN mean": 9.05,
+   "n FP": 100,
+   "n TN": 21
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Feature": "early_ae_max_grade",
+   "FP mean": 2.0,
+   "TN mean": 1.62,
+   "n FP": 100,
+   "n TN": 21
+  },
+  {
+   "Drug": "Carboplatin",
+   "Feature": "early_ae_count",
+   "FP mean": 9.65,
+   "TN mean": 5.89,
+   "n FP": 130,
+   "n TN": 9
+  },
+  {
+   "Drug": "Carboplatin",
+   "Feature": "early_ae_max_grade",
+   "FP mean": 1.95,
+   "TN mean": 1.22,
+   "n FP": 130,
+   "n TN": 9
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Feature": "early_ae_count",
+   "FP mean": 5.87,
+   "TN mean": 2.93,
+   "n FP": 225,
+   "n TN": 14
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Feature": "early_ae_max_grade",
+   "FP mean": 1.3,
+   "TN mean": 0.86,
+   "n FP": 225,
+   "n TN": 14
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Feature": "early_ae_count",
+   "FP mean": 25.07,
+   "TN mean": 17.79,
+   "n FP": 195,
+   "n TN": 48
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Feature": "early_ae_max_grade",
+   "FP mean": 2.73,
+   "TN mean": 1.92,
+   "n FP": 195,
+   "n TN": 48
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Feature": "early_ae_count",
+   "FP mean": 26.01,
+   "TN mean": 17.49,
+   "n FP": 180,
+   "n TN": 68
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Feature": "early_ae_max_grade",
+   "FP mean": 2.82,
+   "TN mean": 1.91,
+   "n FP": 180,
+   "n TN": 68
+  }
+ ],
+ "seed_rule": [
+  {
+   "Drug": "Bevacizumab",
+   "Change": "LR instead of ensemble",
+   "Metric": "AUC",
+   "Base mean": 0.516,
+   "New mean": 0.575,
+   "Seeds improved": 5,
+   "Mean change": 0.059,
+   "Meets rule": true
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Change": "C = 5 instead of C = 1",
+   "Metric": "AUC",
+   "Base mean": 0.575,
+   "New mean": 0.56,
+   "Seeds improved": 0,
+   "Mean change": -0.015,
+   "Meets rule": false
+  },
+  {
+   "Drug": "Carboplatin",
+   "Change": "Ensemble instead of LR",
+   "Metric": "AUC",
+   "Base mean": 0.638,
+   "New mean": 0.663,
+   "Seeds improved": 5,
+   "Mean change": 0.025,
+   "Meets rule": true
+  },
+  {
+   "Drug": "Carboplatin",
+   "Change": "SMOTE",
+   "Metric": "Specificity",
+   "Base mean": 0.068,
+   "New mean": 0.105,
+   "Seeds improved": 4,
+   "Mean change": 0.037,
+   "Meets rule": true
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Change": "Ensemble (strong) instead of LR",
+   "Metric": "AUC",
+   "Base mean": 0.685,
+   "New mean": 0.699,
+   "Seeds improved": 5,
+   "Mean change": 0.014,
+   "Meets rule": true
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Change": "Strong regularization",
+   "Metric": "AUC",
+   "Base mean": 0.684,
+   "New mean": 0.699,
+   "Seeds improved": 5,
+   "Mean change": 0.015,
+   "Meets rule": true
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Change": "Ensemble instead of LR",
+   "Metric": "AUC",
+   "Base mean": 0.703,
+   "New mean": 0.708,
+   "Seeds improved": 3,
+   "Mean change": 0.004,
+   "Meets rule": false
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Change": "Fewer AE features",
+   "Metric": "AUC",
+   "Base mean": 0.708,
+   "New mean": 0.72,
+   "Seeds improved": 5,
+   "Mean change": 0.012,
+   "Meets rule": true
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Change": "Ensemble instead of LR",
+   "Metric": "AUC",
+   "Base mean": 0.704,
+   "New mean": 0.712,
+   "Seeds improved": 4,
+   "Mean change": 0.007,
+   "Meets rule": false
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Change": "Mild regularization (with SMOTE)",
+   "Metric": "Specificity",
+   "Base mean": 0.23,
+   "New mean": 0.217,
+   "Seeds improved": 2,
+   "Mean change": -0.013,
+   "Meets rule": false
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Change": "SMOTE (with mild regularization)",
+   "Metric": "Specificity",
+   "Base mean": 0.222,
+   "New mean": 0.217,
+   "Seeds improved": 2,
+   "Mean change": -0.005,
+   "Meets rule": false
+  }
+ ],
+ "bev_c_sweep": [
+  {
+   "C": 0.01,
+   "AUC": 0.56,
+   "Recall": 0.929,
+   "Specificity": 0.099
+  },
+  {
+   "C": 0.05,
+   "AUC": 0.568,
+   "Recall": 0.99,
+   "Specificity": 0.058
+  },
+  {
+   "C": 0.1,
+   "AUC": 0.571,
+   "Recall": 1.0,
+   "Specificity": 0.066
+  },
+  {
+   "C": 0.3,
+   "AUC": 0.568,
+   "Recall": 0.98,
+   "Specificity": 0.083
+  },
+  {
+   "C": 0.5,
+   "AUC": 0.565,
+   "Recall": 0.969,
+   "Specificity": 0.107
+  },
+  {
+   "C": 1.0,
+   "AUC": 0.56,
+   "Recall": 0.939,
+   "Specificity": 0.157
+  },
+  {
+   "C": 2.0,
+   "AUC": 0.549,
+   "Recall": 0.918,
+   "Specificity": 0.157
+  },
+  {
+   "C": 5.0,
+   "AUC": 0.538,
+   "Recall": 0.918,
+   "Specificity": 0.174
+  }
+ ],
+ "bev_variants": [
+  {
+   "Variant": "Ensemble, equal weights",
+   "AUC": 0.508,
+   "Recall": 1.0,
+   "Specificity": 0.033
+  },
+  {
+   "Variant": "Ensemble, LR weighted x2",
+   "AUC": 0.526,
+   "Recall": 0.98,
+   "Specificity": 0.05
+  },
+  {
+   "Variant": "Ensemble, LR + RF only",
+   "AUC": 0.538,
+   "Recall": 0.969,
+   "Specificity": 0.058
+  }
+ ],
+ "simple_pre": [
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "Fixed model",
+   "AUC": 0.538,
+   "Specificity": 0.174
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "Decision tree (depth 4)",
+   "AUC": 0.49,
+   "Specificity": 0.157
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "SVM (RBF)",
+   "AUC": 0.428,
+   "Specificity": 0.0
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "k-NN (k = 15)",
+   "AUC": 0.535,
+   "Specificity": 0.017
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "SelectKBest (k = 10)",
+   "AUC": 0.543,
+   "Specificity": 0.058
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "StandardScaler",
+   "AUC": 0.538,
+   "Specificity": 0.182
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "All 24 AE categories",
+   "AUC": 0.52,
+   "Specificity": 0.24
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "Fixed model",
+   "AUC": 0.674,
+   "Specificity": 0.065
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "Decision tree (depth 4)",
+   "AUC": 0.624,
+   "Specificity": 0.165
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "SVM (RBF)",
+   "AUC": 0.665,
+   "Specificity": 0.036
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "k-NN (k = 15)",
+   "AUC": 0.652,
+   "Specificity": 0.144
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "SelectKBest (k = 10)",
+   "AUC": 0.676,
+   "Specificity": 0.137
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "StandardScaler",
+   "AUC": 0.669,
+   "Specificity": 0.115
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "All 24 AE categories",
+   "AUC": 0.647,
+   "Specificity": 0.058
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "Fixed model",
+   "AUC": 0.698,
+   "Specificity": 0.059
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "Decision tree (depth 4)",
+   "AUC": 0.628,
+   "Specificity": 0.121
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "SVM (RBF)",
+   "AUC": 0.655,
+   "Specificity": 0.109
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "k-NN (k = 15)",
+   "AUC": 0.602,
+   "Specificity": 0.05
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "SelectKBest (k = 10)",
+   "AUC": 0.698,
+   "Specificity": 0.075
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "StandardScaler",
+   "AUC": 0.699,
+   "Specificity": 0.071
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "All 24 AE categories",
+   "AUC": 0.691,
+   "Specificity": 0.038
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "Fixed model",
+   "AUC": 0.734,
+   "Specificity": 0.198
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "Decision tree (depth 4)",
+   "AUC": 0.642,
+   "Specificity": 0.28
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "SVM (RBF)",
+   "AUC": 0.728,
+   "Specificity": 0.086
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "k-NN (k = 15)",
+   "AUC": 0.653,
+   "Specificity": 0.169
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "SelectKBest (k = 10)",
+   "AUC": 0.707,
+   "Specificity": 0.177
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "StandardScaler",
+   "AUC": 0.734,
+   "Specificity": 0.21
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "All 24 AE categories",
+   "AUC": 0.727,
+   "Specificity": 0.136
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "Fixed model",
+   "AUC": 0.719,
+   "Specificity": 0.274
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "Decision tree (depth 4)",
+   "AUC": 0.61,
+   "Specificity": 0.226
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "SVM (RBF)",
+   "AUC": 0.704,
+   "Specificity": 0.181
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "k-NN (k = 15)",
+   "AUC": 0.68,
+   "Specificity": 0.214
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "SelectKBest (k = 10)",
+   "AUC": 0.685,
+   "Specificity": 0.246
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "StandardScaler",
+   "AUC": 0.715,
+   "Specificity": 0.23
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "All 24 AE categories",
+   "AUC": 0.72,
+   "Specificity": 0.198
+  }
+ ],
+ "pca5": [
+  {
+   "Drug": "Bevacizumab",
+   "AUC fixed": "0.560 \u00b1 0.017",
+   "AUC +PCA": "0.596 \u00b1 0.015",
+   "Spec. fixed": "0.154 \u00b1 0.020",
+   "Spec. +PCA": "0.091 \u00b1 0.019",
+   "Seeds AUC and spec. both up": 0
+  },
+  {
+   "Drug": "Carboplatin",
+   "AUC fixed": "0.664 \u00b1 0.017",
+   "AUC +PCA": "0.654 \u00b1 0.019",
+   "Spec. fixed": "0.105 \u00b1 0.046",
+   "Spec. +PCA": "0.039 \u00b1 0.027",
+   "Seeds AUC and spec. both up": 0
+  },
+  {
+   "Drug": "Paclitaxel",
+   "AUC fixed": "0.699 \u00b1 0.004",
+   "AUC +PCA": "0.692 \u00b1 0.013",
+   "Spec. fixed": "0.059 \u00b1 0.017",
+   "Spec. +PCA": "0.030 \u00b1 0.011",
+   "Seeds AUC and spec. both up": 0
+  },
+  {
+   "Drug": "Doxorubicin",
+   "AUC fixed": "0.720 \u00b1 0.009",
+   "AUC +PCA": "0.709 \u00b1 0.012",
+   "Spec. fixed": "0.186 \u00b1 0.034",
+   "Spec. +PCA": "0.161 \u00b1 0.040",
+   "Seeds AUC and spec. both up": 1
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "AUC fixed": "0.713 \u00b1 0.007",
+   "AUC +PCA": "0.701 \u00b1 0.012",
+   "Spec. fixed": "0.217 \u00b1 0.042",
+   "Spec. +PCA": "0.170 \u00b1 0.044",
+   "Seeds AUC and spec. both up": 0
+  }
+ ],
+ "flags_platt": [
+  {
+   "Drug": "Bevacizumab",
+   "dAUC flags": -0.0,
+   "dAUC Platt": -0.063,
+   "Brier": 0.3,
+   "Brier Platt": 0.254
+  },
+  {
+   "Drug": "Carboplatin",
+   "dAUC flags": -0.0,
+   "dAUC Platt": -0.001,
+   "Brier": 0.216,
+   "Brier Platt": 0.215
+  },
+  {
+   "Drug": "Paclitaxel",
+   "dAUC flags": -0.0,
+   "dAUC Platt": -0.001,
+   "Brier": 0.227,
+   "Brier Platt": 0.22
+  },
+  {
+   "Drug": "Doxorubicin",
+   "dAUC flags": -0.002,
+   "dAUC Platt": -0.005,
+   "Brier": 0.203,
+   "Brier Platt": 0.204
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "dAUC flags": -0.001,
+   "dAUC Platt": -0.006,
+   "Brier": 0.209,
+   "Brier Platt": 0.207
+  }
+ ],
+ "hard": [
+  {
+   "Drug": "Carboplatin",
+   "Recall soft": 0.952,
+   "Recall hard": 0.476,
+   "Spec. soft": 0.065,
+   "Spec. hard": 0.777
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Recall soft": 0.99,
+   "Recall hard": 0.581,
+   "Spec. soft": 0.059,
+   "Spec. hard": 0.678
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Recall soft": 0.962,
+   "Recall hard": 0.596,
+   "Spec. soft": 0.198,
+   "Spec. hard": 0.745
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Recall soft": 0.948,
+   "Recall hard": 0.571,
+   "Spec. soft": 0.274,
+   "Spec. hard": 0.73
+  }
+ ],
+ "cascade": [
+  {
+   "Drug": "Bevacizumab",
+   "Precision stage 1": 0.474,
+   "Precision cascade": 0.457,
+   "Recall stage 1": 0.918,
+   "Recall cascade": 0.429
+  },
+  {
+   "Drug": "Carboplatin",
+   "Precision stage 1": 0.381,
+   "Precision cascade": 0.462,
+   "Recall stage 1": 0.952,
+   "Recall cascade": 0.512
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Precision stage 1": 0.466,
+   "Precision cascade": 0.622,
+   "Recall stage 1": 0.99,
+   "Recall cascade": 0.616
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Precision stage 1": 0.435,
+   "Precision cascade": 0.581,
+   "Recall stage 1": 0.962,
+   "Recall cascade": 0.596
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Precision stage 1": 0.448,
+   "Precision cascade": 0.552,
+   "Recall stage 1": 0.948,
+   "Recall cascade": 0.552
+  }
+ ],
+ "toxicity": [
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "Composite severity score",
+   "dAUC": 0.008,
+   "dRecall": 0.0,
+   "dSpecificity": 0.017
+  },
+  {
+   "Drug": "Bevacizumab",
+   "Variant": "Relatedness filter",
+   "dAUC": 0.022,
+   "dRecall": -0.041,
+   "dSpecificity": 0.008
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "Composite severity score",
+   "dAUC": 0.006,
+   "dRecall": -0.06,
+   "dSpecificity": 0.101
+  },
+  {
+   "Drug": "Carboplatin",
+   "Variant": "Relatedness filter",
+   "dAUC": -0.002,
+   "dRecall": 0.024,
+   "dSpecificity": 0.014
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "Composite severity score",
+   "dAUC": -0.002,
+   "dRecall": -0.005,
+   "dSpecificity": 0.025
+  },
+  {
+   "Drug": "Paclitaxel",
+   "Variant": "Relatedness filter",
+   "dAUC": -0.001,
+   "dRecall": 0.005,
+   "dSpecificity": -0.021
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "Composite severity score",
+   "dAUC": 0.003,
+   "dRecall": -0.013,
+   "dSpecificity": 0.016
+  },
+  {
+   "Drug": "Doxorubicin",
+   "Variant": "Relatedness filter",
+   "dAUC": -0.001,
+   "dRecall": 0.013,
+   "dSpecificity": 0.016
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "Composite severity score",
+   "dAUC": 0.004,
+   "dRecall": 0.006,
+   "dSpecificity": -0.028
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "Variant": "Relatedness filter",
+   "dAUC": -0.002,
+   "dRecall": -0.019,
+   "dSpecificity": -0.044
+  }
+ ],
+ "pcr": [
+  {
+   "Drug": "Bevacizumab",
+   "pCR modified": 0.579,
+   "pCR not modified": 0.6,
+   "Odds ratio": 0.917,
+   "p": 0.7813
+  },
+  {
+   "Drug": "Carboplatin",
+   "pCR modified": 0.598,
+   "pCR not modified": 0.613,
+   "Odds ratio": 0.937,
+   "p": 0.8865
+  },
+  {
+   "Drug": "Paclitaxel",
+   "pCR modified": 0.577,
+   "pCR not modified": 0.5,
+   "Odds ratio": 1.361,
+   "p": 0.1205
+  },
+  {
+   "Drug": "Doxorubicin",
+   "pCR modified": 0.5,
+   "pCR not modified": 0.583,
+   "Odds ratio": 0.716,
+   "p": 0.1204
+  },
+  {
+   "Drug": "Cyclophosphamide",
+   "pCR modified": 0.507,
+   "pCR not modified": 0.579,
+   "Odds ratio": 0.747,
+   "p": 0.1781
+  },
+  {
+   "Drug": "Any drug",
+   "pCR modified": 0.545,
+   "pCR not modified": 0.525,
+   "Odds ratio": 1.084,
+   "p": 0.6911
+  }
+ ],
+ "rcb": {
+  "chi2": 0.05377662126263205,
+  "dof": 4,
+  "p": 0.9996449244186323
+ },
+ "discontinuation": {
+  "stopped": 34,
+  "captured": 19,
+  "missed": 15,
+  "grade_missed": 3.4285714285714284,
+  "grade_captured": 3.263157894736842,
+  "auc": 0.5527829713792607
+ }
+}

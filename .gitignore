@@ -1,0 +1,6 @@
+# patient-level data from Project Data Sphere must not be published
+*.csv
+!Table_II_fully_nested.csv
+!Table_S1_fully_nested_by_seed.csv
+.ipynb_checkpoints/
+__pycache__/
